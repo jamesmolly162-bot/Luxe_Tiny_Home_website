@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://luxetinyhomes.com/</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://luxetinyhomes.com/images/hero-tiny-home.jpg</image:loc>
+            <image:title>Luxe Tiny Homes - Premium Mobile Living Solutions</image:title>
+            <image:caption>Discover your dream tiny home or home on wheels with affordable, eco-friendly living designed for freedom.</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Listings Section -->
+    <url>
+        <loc>https://luxetinyhomes.com/#listings</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Individual Listings -->
+    <url>
+        <loc>https://luxetinyhomes.com/listing-detail.html?id=1</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://luxetinyhomes.com/images/listings/modern-tiny-home-1.jpg</image:loc>
+            <image:title>Modern Scandinavian Tiny Home</image:title>
+            <image:caption>Premium 320 sq ft living space with minimalist design and eco-friendly features. Starting at $85,000.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://luxetinyhomes.com/images/listings/modern-tiny-home-2.jpg</image:loc>
+            <image:title>Modern Scandinavian Tiny Home - Interior</image:title>
+            <image:caption>Interior living area with premium finishes and thoughtful design.</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://luxetinyhomes.com/images/listings/modern-tiny-home-3.jpg</image:loc>
+            <image:title>Modern Scandinavian Tiny Home - Kitchen</image:title>
+            <image:caption>Fully equipped kitchen with modern appliances and custom cabinetry.</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://luxetinyhomes.com/listing-detail.html?id=2</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://luxetinyhomes.com/images/listings/luxury-mobile-home.jpg</image:loc>
+            <image:title>Luxury Home on Wheels</image:title>
+            <image:caption>Fully equipped mobile home with solar power system and premium appliances. Starting at $120,000.</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://luxetinyhomes.com/listing-detail.html?id=3</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://luxetinyhomes.com/images/listings/rustic-tiny-home.jpg</image:loc>
+            <image:title>Rustic Cabin Style Tiny Home</image:title>
+            <image:caption>Charming wood-finished tiny home with cozy cabin aesthetics and modern amenities. Starting at $65,000.</image:caption>
+        </image:image>
+    </url>
+    
+    <url>
+        <loc>https://luxetinyhomes.com/listing-detail.html?id=4</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://luxetinyhomes.com/images/listings/custom-tiny-home.jpg</image:loc>
+            <image:title>Custom Built Eco Home</image:title>
+            <image:caption>Sustainable materials and energy-efficient design with custom layout options. Starting at $95,000.</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- About Section -->
+    <url>
+        <loc>https://luxetinyhomes.com/#about</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://luxetinyhomes.com/images/agent-photo.jpg</image:loc>
+            <image:title>Sarah Martinez - Tiny Home Specialist</image:title>
+            <image:caption>Licensed Real Estate Agent and Tiny Home Specialist with over a decade of experience.</image:caption>
+        </image:image>
+    </url>
+    
+    <!-- Upgrades Section -->
+    <url>
+        <loc>https://luxetinyhomes.com/#upgrades</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Financing Section -->
+    <url>
+        <loc>https://luxetinyhomes.com/#financing</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <!-- Contact Section -->
+    <url>
+        <loc>https://luxetinyhomes.com/#contact</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Privacy Policy -->
+    <url>
+        <loc>https://luxetinyhomes.com/privacy-policy.html</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+    <!-- Terms of Service -->
+    <url>
+        <loc>https://luxetinyhomes.com/terms.html</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+</urlset>

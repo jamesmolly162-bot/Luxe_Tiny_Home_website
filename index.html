@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luxe Tiny Homes - Discover affordable, sustainable tiny homes and homes on wheels. Premium mobile living solutions nationwide.">
+    <meta name="keywords" content="tiny homes, homes on wheels, mobile living, sustainable housing, California real estate">
+    <meta name="author" content="Luxe Tiny Homes">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Luxe Tiny Homes - Premium Tiny Homes & Mobile Living">
+    <meta property="og:description" content="Affordable, eco-friendly living designed for freedom. Browse our collection of luxury tiny homes and homes on wheels.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://luxetinyhomes.com">
+    <meta property="og:image" content="https://luxetinyhomes.com/images/hero-tiny-home.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Luxe Tiny Homes - Premium Tiny Homes & Mobile Living">
+    <meta name="twitter:description" content="Affordable, eco-friendly living designed for freedom.">
+    <meta name="twitter:image" content="https://luxetinyhomes.com/images/hero-tiny-home.jpg">
+    
+    <title>Luxe Tiny Homes - Premium Tiny Homes & Mobile Living Solutions</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "RealEstateAgent",
+        "name": "Luxe Tiny Homes",
+        "description": "We connect clients with affordable, sustainable, and mobile living options — from luxury tiny homes to fully equipped homes on wheels.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "California",
+            "addressCountry": "USA"
+        },
+        "telephone": "+1-555-TINY-HOME",
+        "url": "https://luxetinyhomes.com",
+        "areaServed": "USA"
+    }
+    </script>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#home">
+                        <i class="fas fa-home"></i>
+                        <span>Luxe Tiny Homes</span>
+                    </a>
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#listings" class="nav-link">Listings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#upgrades" class="nav-link">Upgrades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#financing" class="nav-link">Financing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav-actions">
+                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="#contact" class="btn btn-primary">Contact Agent</a>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <video autoplay muted loop class="hero-video">
+                <source src="videos/hero-tiny-home.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="hero-title">Discover Your Dream Tiny Home or Home on Wheels</h1>
+                <p class="hero-subtitle">Affordable, eco-friendly living — designed for freedom.</p>
+                
+                <div class="hero-actions">
+                    <a href="#listings" class="btn btn-primary btn-lg">View Listings</a>
+                    <a href="#contact" class="btn btn-secondary btn-lg">Get a Quote</a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">200+</span>
+                        <span class="stat-label">Happy Families</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">States Served</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5★</span>
+                        <span class="stat-label">Average Rating</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Listings Section -->
+    <section class="listings" id="listings">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Listings</h2>
+                <p class="section-subtitle">Explore our curated collection of premium tiny homes and mobile living solutions</p>
+            </div>
+            
+            <!-- Search & Filter -->
+            <div class="listings-filters">
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Search listings...">
+                    <i class="fas fa-search"></i>
+                </div>
+                
+                <div class="filter-controls">
+                    <select id="price-filter">
+                        <option value="">All Prices</option>
+                        <option value="0-50000">Under $50K</option>
+                        <option value="50000-80000">$50K - $80K</option>
+                        <option value="80000-120000">$80K - $120K</option>
+                        <option value="120000+">$120K+</option>
+                    </select>
+                    
+                    <select id="type-filter">
+                        <option value="">All Types</option>
+                        <option value="tiny-home">Tiny Home</option>
+                        <option value="home-on-wheels">Home on Wheels</option>
+                        <option value="custom">Custom Build</option>
+                    </select>
+                    
+                    <select id="location-filter">
+                        <option value="">All Locations</option>
+                        <option value="california">California</option>
+                        <option value="texas">Texas</option>
+                        <option value="florida">Florida</option>
+                        <option value="oregon">Oregon</option>
+                    </select>
+                    
+                    <button id="clear-filters" class="btn btn-outline">Clear Filters</button>
+                </div>
+            </div>
+            
+            <!-- Listings Grid -->
+            <div class="listings-grid" id="listings-grid">
+                <!-- Listing 1 -->
+                <div class="listing-card" data-type="tiny-home" data-price="85000" data-location="california">
+                    <div class="listing-image">
+                        <img src="images/listings/modern-tiny-home.jpg" alt="Modern Scandinavian Tiny Home">
+                        <button class="favorite-btn" aria-label="Add to favorites">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <div class="listing-badge">Featured</div>
+                    </div>
+                    <div class="listing-content">
+                        <h3 class="listing-title">Modern Scandinavian Tiny Home</h3>
+                        <p class="listing-price">$85,000</p>
+                        <p class="listing-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            San Diego, CA
+                        </p>
+                        <p class="listing-description">Minimalist design with premium finishes, featuring 320 sq ft of thoughtfully designed living space.</p>
+                        <div class="listing-specs">
+                            <span><i class="fas fa-bed"></i> 1 Bed</span>
+                            <span><i class="fas fa-bath"></i> 1 Bath</span>
+                            <span><i class="fas fa-ruler-combined"></i> 320 sq ft</span>
+                        </div>
+                        <a href="listing-detail.html?id=1" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Listing 2 -->
+                <div class="listing-card" data-type="home-on-wheels" data-price="120000" data-location="oregon">
+                    <div class="listing-image">
+                        <img src="images/listings/luxury-mobile-home.jpg" alt="Luxury Home on Wheels">
+                        <button class="favorite-btn" aria-label="Add to favorites">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="listing-content">
+                        <h3 class="listing-title">Luxury Home on Wheels</h3>
+                        <p class="listing-price">$120,000</p>
+                        <p class="listing-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Portland, OR
+                        </p>
+                        <p class="listing-description">Fully equipped mobile home with solar power system and premium appliances.</p>
+                        <div class="listing-specs">
+                            <span><i class="fas fa-bed"></i> 2 Beds</span>
+                            <span><i class="fas fa-bath"></i> 1 Bath</span>
+                            <span><i class="fas fa-ruler-combined"></i> 450 sq ft</span>
+                        </div>
+                        <a href="listing-detail.html?id=2" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Listing 3 -->
+                <div class="listing-card" data-type="tiny-home" data-price="65000" data-location="texas">
+                    <div class="listing-image">
+                        <img src="images/listings/rustic-tiny-home.jpg" alt="Rustic Cabin Style Tiny Home">
+                        <button class="favorite-btn" aria-label="Add to favorites">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="listing-content">
+                        <h3 class="listing-title">Rustic Cabin Style Tiny Home</h3>
+                        <p class="listing-price">$65,000</p>
+                        <p class="listing-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Austin, TX
+                        </p>
+                        <p class="listing-description">Charming wood-finished tiny home with cozy cabin aesthetics and modern amenities.</p>
+                        <div class="listing-specs">
+                            <span><i class="fas fa-bed"></i> 1 Bed</span>
+                            <span><i class="fas fa ath"></i> 1 Bath</span>
+                            <span><i class="fas fa-ruler-combined"></i> 280 sq ft</span>
+                        </div>
+                        <a href="listing-detail.html?id=3" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+                
+                <!-- Listing 4 -->
+                <div class="listing-card" data-type="custom" data-price="95000" data-location="florida">
+                    <div class="listing-image">
+                        <img src="images/listings/custom-tiny-home.jpg" alt="Custom Built Eco Home">
+                        <button class="favorite-btn" aria-label="Add to favorites">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <div class="listing-badge">New</div>
+                    </div>
+                    <div class="listing-content">
+                        <h3 class="listing-title">Custom Built Eco Home</h3>
+                        <p class="listing-price">$95,000</p>
+                        <p class="listing-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Tampa, FL
+                        </p>
+                        <p class="listing-description">Sustainable materials and energy-efficient design with custom layout options.</p>
+                        <div class="listing-specs">
+                            <span><i class="fas fa-bed"></i> 1 Bed</span>
+                            <span><i class="fas fa-bath"></i> 1 Bath</span>
+                            <span><i class="fas fa-ruler-combined"></i> 350 sq ft</span>
+                        </div>
+                        <a href="listing-detail.html?id=4" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center">
+                <a href="#contact" class="btn btn-secondary">View All Listings</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Upgrades Section -->
+    <section class="upgrades" id="upgrades">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Premium Upgrades</h2>
+                <p class="section-subtitle">Enhance your tiny home experience with our carefully selected upgrade options</p>
+            </div>
+            
+            <div class="upgrades-grid">
+                <div class="upgrade-card">
+                    <div class="upgrade-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3 class="upgrade-title">Solar Power System</h3>
+                    <p class="upgrade-description">Complete off-grid solar solution with battery storage for sustainable living.</p>
+                    <div class="upgrade-price">From $8,500</div>
+                </div>
+                
+                <div class="upgrade-card">
+                    <div class="upgrade-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="upgrade-title">Smart Home System</h3>
+                    <p class="upgrade-description">Integrated IoT controls for lighting, temperature, and security management.</p>
+                    <div class="upgrade-price">From $3,200</div>
+                </div>
+                
+                <div class="upgrade-card">
+                    <div class="upgrade-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3 class="upgrade-title">Water Filtration</h3>
+                    <p class="upgrade-description">Advanced filtration system for clean, safe water anywhere you park.</p>
+                    <div class="upgrade-price">From $1,800</div>
+                </div>
+                
+                <div class="upgrade-card">
+                    <div class="upgrade-icon">
+                        <i class="fas fa-couch"></i>
+                    </div>
+                    <h3 class="upgrade-title">Premium Interiors</h3>
+                    <p class="upgrade-description">Luxury finishes, custom cabinetry, and high-end appliance packages.</p>
+                    <div class="upgrade-price">From $5,500</div>
+                </div>
+                
+                <div class="upgrade-card">
+                    <div class="upgrade-icon">
+                        <i class="fas fa-thermometer-half"></i>
+                    </div>
+                    <h3 class="upgrade-title">Climate Control</h3>
+                    <p class="upgrade-description">Efficient heating and cooling systems for year-round comfort.</p>
+                    <div class="upgrade-price">From $2,400</div>
+                </div>
+                
+                <div class="upgrade-card">
+                    <div class="upgrade-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="upgrade-title">Security Package</h3>
+                    <p class="upgrade-description">Advanced security system with cameras and remote monitoring.</p>
+                    <div class="upgrade-price">From $1,950</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Financing & Delivery Section -->
+    <section class="financing" id="financing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Financing & Delivery</h2>
+                <p class="section-subtitle">We make tiny home ownership accessible with flexible financing and nationwide delivery</p>
+            </div>
+            
+            <div class="financing-grid">
+                <div class="financing-card">
+                    <div class="financing-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3 class="financing-title">Flexible Financing</h3>
+                    <p class="financing-description">Multiple financing options with competitive rates and terms tailored to your budget.</p>
+                    <ul class="financing-features">
+                        <li>Low down payment options</li>
+                        <li>Competitive interest rates</li>
+                        <li>Fast approval process</li>
+                        <li>Terms up to 20 years</li>
+                    </ul>
+                </div>
+                
+                <div class="financing-card">
+                    <div class="financing-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3 class="financing-title">Nationwide Delivery</h3>
+                    <p class="financing-description">Professional delivery and setup service to anywhere in the continental US.</p>
+                    <ul class="financing-features">
+                        <li>Professional transport</li>
+                        <li>Setup and positioning</li>
+                        <li>Utility connections</li>
+                        <li>Full inspection</li>
+                    </ul>
+                </div>
+                
+                <div class="financing-card">
+                    <div class="financing-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="financing-title">Support & Warranty</h3>
+                    <p class="financing-description">Comprehensive warranty coverage and ongoing support for your peace of mind.</p>
+                    <ul class="financing-features">
+                        <li>5-year structural warranty</li>
+                        <li>1-year appliance coverage</li>
+                        <li>24/7 customer support</li>
+                        <li>Maintenance guidance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Luxe Tiny Homes</h2>
+                    <p class="about-description">
+                        With over a decade of experience in sustainable housing solutions, we're passionate about helping people find the freedom of mobile living. Our carefully curated selection of tiny homes and homes on wheels represents the perfect blend of luxury, sustainability, and affordability.
+                    </p>
+                    <p class="about-description">
+                        From our base in California, we serve clients nationwide, connecting them with their dream homes while supporting a more sustainable and flexible lifestyle. Every home in our portfolio is personally inspected and meets our high standards for quality, design, and livability.
+                    </p>
+                    
+                    <div class="about-stats">
+                        <div class="about-stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Homes Sold</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                    </div>
+                    
+                    <div class="trust-badges">
+                        <img src="images/badges/certified-dealer.png" alt="Certified Tiny Home Dealer" class="trust-badge">
+                        <img src="images/badges/eco-certified.png" alt="Eco Certified" class="trust-badge">
+                        <img src="images/badges/bbb-accredited.png" alt="BBB Accredited Business" class="trust-badge">
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="images/agent-photo.jpg" alt="Real Estate Agent - Luxe Tiny Homes">
+                    <div class="about-agent">
+                        <h4>Sarah Martinez</h4>
+                        <p>Licensed Real Estate Agent & Tiny Home Specialist</p>
+                        <div class="agent-contact">
+                            <a href="tel:+1-555-TINY-HOME" class="contact-link">
+                                <i class="fas fa-phone"></i> +1-555-TINY-HOME
+                            </a>
+                            <a href="mailto:sarah@luxetinyhomes.com" class="contact-link">
+                                <i class="fas fa-envelope"></i> sarah@luxetinyhomes.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-subtitle">Real stories from families who found their perfect tiny home</p>
+            </div>
+            
+            <div class="testimonials-slider" id="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Sarah helped us find the perfect tiny home for our retirement. The process was smooth, and we love the freedom our new mobile lifestyle gives us. Highly recommend!"</p>
+                        <div class="testimonial-author">
+                            <img src="images/testimonials/client-1.jpg" alt="John and Mary Thompson">
+                            <div class="author-info">
+                                <h4 class="author-name">John & Mary Thompson</h4>
+                                <p class="author-location">Retired Couple, Arizona</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"As digital nomads, we needed a home that could travel with us. Luxe Tiny Homes delivered exactly what we were looking for - quality, style, and mobility all in one package."</p>
+                        <div class="testimonial-author">
+                            <img src="images/testimonials/client-2.jpg" alt="Alex and Jamie Chen">
+                            <div class="author-info">
+                                <h4 class="author-name">Alex & Jamie Chen</h4>
+                                <p class="author-location">Digital Nomads, Various Locations</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The financing options made our dream of tiny home ownership possible. The delivery was professional, and the home exceeded our expectations. Thank you, Sarah!"</p>
+                        <div class="testimonial-author">
+                            <img src="images/testimonials/client-3.jpg" alt="Maria Rodriguez">
+                            <div class="author-info">
+                                <h4 class="author-name">Maria Rodriguez</h4>
+                                <p class="author-location">Teacher, Colorado</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonial-controls">
+                <button class="testimonial-prev" aria-label="Previous testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="testimonial-next" aria-label="Next testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Quote Form Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="contact-description">Ready to start your tiny home journey? Contact us today for a personalized consultation and quote.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <a href="tel:+1-555-TINY-HOME">+1-555-TINY-HOME</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <a href="mailto:info@luxetinyhomes.com">info@luxetinyhomes.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>California, USA<br>Serving Nationwide</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Hours</h4>
+                                <p>Mon-Fri: 8am-6pm PST<br>Weekends: By Appointment</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="TikTok" class="social-link">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" aria-label="YouTube" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="city">City/State</label>
+                        <input type="text" id="city" name="city" placeholder="Where are you located?">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="interest">Interested In *</label>
+                        <select id="interest" name="interest" required>
+                            <option value="">Select an option</option>
+                            <option value="tiny-home">Tiny Home</option>
+                            <option value="home-on-wheels">Home on Wheels</option>
+                            <option value="custom-build">Custom Build</option>
+                            <option value="consultation">General Consultation</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="budget">Budget Range</label>
+                        <select id="budget" name="budget">
+                            <option value="">Select budget range</option>
+                            <option value="under-50k">Under $50,000</option>
+                            <option value="50k-80k">$50,000 - $80,000</option>
+                            <option value="80k-120k">$80,000 - $120,000</option>
+                            <option value="120k-plus">$120,000+</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Tell us about your tiny home dreams..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Yes, I'd like to receive updates about new listings and tiny home tips</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <span class="btn-text">Request Info</span>
+                        <span class="btn-loader" style="display: none;">
+                            <i class="fas fa-spinner fa-spin"></i>
+                        </span>
+                    </button>
+                    
+                    <div class="form-message" id="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Popup -->
+    <div class="newsletter-popup" id="newsletter-popup">
+        <div class="newsletter-content">
+            <button class="newsletter-close" id="newsletter-close" aria-label="Close newsletter popup">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <div class="newsletter-icon">
+                <i class="fas fa-envelope"></i>
+            </div>
+            
+            <h3 class="newsletter-title">Stay Updated</h3>
+            <p class="newsletter-text">Get the latest listings and tiny home tips straight to your inbox!</p>
+            
+            <form class="newsletter-form" id="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+        <div class="newsletter-overlay"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-home"></i>
+                        <span>Luxe Tiny Homes</span>
+                    </div>
+                    <p class="footer-description">
+                        Connecting people with affordable, sustainable, and mobile living solutions since 2013.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="TikTok" class="social-link">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" aria-label="YouTube" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#listings">Listings</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#upgrades">Upgrades</a></li>
+                        <li><a href="#financing">Financing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Tiny Homes</a></li>
+                        <li><a href="#">Homes on Wheels</a></li>
+                        <li><a href="#">Custom Builds</a></li>
+                        <li><a href="#">Financing</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Virtual Tours</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-phone"></i> +1-555-TINY-HOME</p>
+                        <p><i class="fas fa-envelope"></i> info@luxetinyhomes.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> California, USA</p>
+                        <p><i class="fas fa-clock"></i> Mon-Fri: 8am-6pm PST</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Luxe Tiny Homes. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Service</a>
+                        <a href="sitemap.xml">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget Placeholder -->
+    <div class="chat-widget" id="chat-widget">
+        <button class="chat-toggle" id="chat-toggle" aria-label="Open chat">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div class="chat-popup" id="chat-popup">
+            <div class="chat-header">
+                <h4>How can we help?</h4>
+                <button class="chat-close" id="chat-close" aria-label="Close chat">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="chat-content">
+                <p>Hi! I'm here to help you find your perfect tiny home. What questions do you have?</p>
+            </div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message...">
+                <button type="submit">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
